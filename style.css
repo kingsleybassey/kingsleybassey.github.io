@@ -28,15 +28,15 @@ body {
 	font-size: 30px;
 }
 
-.box .button {
+.box button {
 	background-color: #000;
 	color: #fff;
-	width: 150px;
+	width: 150px; 
 	height: 40px;
 	font-family: 'Oswald', sans-serif;
 }
 
-.box .button:hover {
+.box button:hover {
 	cursor: pointer;
 	background-color: #fff;
 	color: #000;
