@@ -1,0 +1,46 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: url(bg.jpg) no-repeat fixed center;
+	background-size: cover;
+}
+
+#container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+	width: 100%;
+    text-align: center;
+}
+
+#text p {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.box .button {
+	background-color: #000;
+	color: #fff;
+	width: 150px;
+	height: 40px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.box .button:hover {
+	cursor: pointer;
+	background-color: #fff;
+	color: #000;
+	width: 150px;
+	border: 1px solid #000
+}
+
